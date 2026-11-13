@@ -1,0 +1,25 @@
+{
+  "name": "playwright-automation-framework",
+  "version": "1.0.0",
+  "description": "Robust Playwright TypeScript automation framework with logging, reporting, screenshots, and cross-browser support.",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "test:debug": "npx playwright test --debug",
+    "test:report": "npx playwright show-report",
+    "lint": "npx eslint . --ext .ts",
+    "prepare": "npx playwright install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.1.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

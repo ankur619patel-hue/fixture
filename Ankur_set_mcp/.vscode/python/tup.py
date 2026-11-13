@@ -1,0 +1,8 @@
+tup=(1,2,3,45)
+# print(tup)
+# print(type(tup))
+# print(tup[1])
+# print(tup[2:4])
+tup1=tup.count(45)
+print(tup1)    
+#print(tup.index(45))
